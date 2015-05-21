@@ -13,11 +13,7 @@
 		rarity: 7,
 		color: '#CCC',
 		faces: 14,
-		images: [
-			"images/gem-02.gif",
-			"images/gem-05.gif",
-			"images/gem-09.gif"
-		],
+		images: [ ],
 		reviews: [{
 			stars: 5,
 			body: "I love this gem!",
