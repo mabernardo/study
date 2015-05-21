@@ -13,7 +13,14 @@
 		this.isSet = function(tab) {
 			return this.tab === tab;
 		};
-	});  
+	});
+	
+	app.controller('GalleryController', function() {
+		this.current = 0;
+		this.setCurrent = function(newValue) {
+			this.current = newValue || 0;
+		};
+	});
 
 	var gems = [{
 		name: 'Azurite',
