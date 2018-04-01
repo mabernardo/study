@@ -1,5 +1,9 @@
 *.o
 *.swp
 *.bin
-build/
+CMakeCache.txt
+*-build-*/
 out/
+.idea/
+CMakeFiles/
+
