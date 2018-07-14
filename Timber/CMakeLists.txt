@@ -7,7 +7,7 @@ find_library(SFML_GRAPHICS sfml-graphics)
 find_library(SFML_WINDOW sfml-window)
 find_library(SFML_SYSTEM sfml-system)
 
-add_executable(Timber Timber.cpp)
+add_executable(Timber Timber.cpp objects/Cloud.cpp objects/Cloud.h)
 
 target_link_libraries(Timber "${SFML_GRAPHICS}")
 target_link_libraries(Timber "${SFML_WINDOW}")
